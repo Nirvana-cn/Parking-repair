@@ -1,0 +1,11 @@
+<view class='wrapper'>
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}">
+      <view class='contain'>
+        <checkbox value="{{item.id}}" class='check'/>车位编号：{{item.id}}
+         <view class='location'>车位坐标：{{item.location}}</view> 
+      </view>
+    </label>
+  </checkbox-group>
+  <button bindtap='repair'>已修理</button>
+</view>
