@@ -1,0 +1,12 @@
+.wrapper{
+  padding:50rpx;
+}
+.check{
+  vertical-align: bottom;
+}
+.contain{
+  margin-bottom:30rpx;
+}
+.location{
+  padding-left:58rpx;
+}

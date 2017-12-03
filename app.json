@@ -1,12 +1,31 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/install/install"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "报修中心",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#000",
+    "backgroundColor":"#ddd",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "维修",
+        "iconPath":"/image/1.png",
+        "selectedIconPath":"/image/2.png"
+      },
+      {
+        "pagePath": "pages/install/install",
+        "text": "安装",
+        "iconPath": "/image/3.png",
+        "selectedIconPath": "/image/4.png"
+      }
+    ]
   }
 }

@@ -5,23 +5,20 @@ const app = getApp()
 Page({
   data: {
     items: [{
-      id: 10001,
-      location: '浙江理工大学',
-      reason:"无法开锁",
-      workType:'TCP'
+      id: 20001,
+      location: '中国计量大学',
+      workType: 'TCP'
     }, {
-      id: 10002,
-      location: '浙江警官学院',
-      reason: "无响应",
+      id: 20002,
+      location: '浙江工商大学',
       workType: '蓝牙/TCP'
-    }],
-    loadData: ''
+    }]
   },
   onLoad: function () {
     // wx.request({
     //   url: 'http://120.25.200.217:8080/IparkingWeb/Repair.action',
     //   data: {
-        
+
     //   },
     //   header: {
     //     'content-type': 'application/json' // 默认值

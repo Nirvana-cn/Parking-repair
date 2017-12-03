@@ -3,11 +3,10 @@
     <label class="checkbox" wx:for="{{items}}">
       <view class='contain'>
         <checkbox value="{{item.id}}" class='check'/>编号：{{item.id}}
-        <view class='location'>坐标：{{item.location}}</view> 
+        <view class='location'>坐标：{{item.location}}</view>
         <view class='location'>工作类型：{{item.workType}}</view> 
-        <view class='location'>报修原因：{{item.reason}}</view> 
       </view>
     </label>
   </checkbox-group>
-  <button bindtap='repair' type='primary'>修理完成</button>
+  <button bindtap='repair' type='primary'>安装完成</button>
 </view>
